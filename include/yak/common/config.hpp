@@ -8,5 +8,5 @@ namespace Yak
         int width = 320;
         int height = 240;
         int framerate = 60;
-    }
+    };
 }

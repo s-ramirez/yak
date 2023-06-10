@@ -9,3 +9,4 @@ CMakeFiles
 *.cmake
 CMakeCache.txt
 Makefile
+libyak.dylib

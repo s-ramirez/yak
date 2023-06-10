@@ -2,6 +2,8 @@
 
 #include <SFML/Graphics.hpp>
 
+#include "common/config.hpp"
+
 /*
     Main game engine wrapper class
 */

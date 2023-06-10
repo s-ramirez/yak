@@ -17,7 +17,7 @@ Game::~Game()
 void Game::Init(const Config config)
 {
     this->window = new sf::RenderWindow(sf::VideoMode(config.width, config.height), config.name, sf::Style::Titlebar | sf::Style::Close);
-    window.setFramerateLimit(config.framerate);
+    this->window->setFramerateLimit(config.framerate);
 }
 
 void Game::HandleEvents()
@@ -50,7 +50,7 @@ void Game::Render()
 }
 
 // Accessors
-const bool isRunning()
+const bool Game::isRunning()
 {
     return this->window->isOpen();
 }
